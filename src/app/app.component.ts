@@ -9,4 +9,16 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'ang3';
+
+
+  userName = ""
+
+  printName(){
+    this.userName ="john"
+  }
+
+
+
+  
+
 }
